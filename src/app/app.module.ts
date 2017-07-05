@@ -7,10 +7,12 @@ import { MomentModule } from 'angular2-moment';
 
 import { MyApp } from './app.component';
 import { ChatsPage } from '../pages/chats/chats';
+import { MessagesPage } from '../pages/messages/messages';
 
 var componentList = [
   MyApp,
-  ChatsPage
+  ChatsPage,
+  MessagesPage
 ]
 
 @NgModule({
